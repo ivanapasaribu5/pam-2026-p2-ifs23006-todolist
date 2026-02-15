@@ -1,6 +1,6 @@
 
 ## Global Variabel
-@BaseUrl = http://127.0.0.1:8080
+@BaseUrl = http://pam-2026-p2-ifs23006-todolist.local:8080
 
 ## Todos
 ## ===========================================
