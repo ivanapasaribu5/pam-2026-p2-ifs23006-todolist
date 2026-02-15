@@ -13,7 +13,11 @@ group = "org.delcom"
 version = "0.0.1"
 
 application {
+<<<<<<< HEAD
     mainClass = "org.delcom.ApplicationKt"
+=======
+    mainClass = "org.delcom.AplicationKt"
+>>>>>>> ae900299a6e15abc9b4145470d8a7f3be017f74d
 }
 
 dependencies {
