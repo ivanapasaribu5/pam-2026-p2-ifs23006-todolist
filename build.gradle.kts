@@ -6,14 +6,14 @@ val dotenv_version: String by project
 plugins {
     kotlin("jvm") version "2.3.0"
     id("io.ktor.plugin") version "3.3.2"
-    id("org.jetbrains.kotlin.plugin.serialization") version "2.2.21"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.3.0"
 }
 
 group = "org.delcom"
 version = "0.0.1"
 
 application {
-    mainClass = "io.ktor.server.netty.EngineMain"
+    mainClass = "org.delcom.ApplicationKt"
 }
 
 dependencies {

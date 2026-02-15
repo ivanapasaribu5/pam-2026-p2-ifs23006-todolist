@@ -43,7 +43,7 @@ fun Application.configureRouting() {
 
     routing {
         get("/") {
-            todoController.getAllTodos(call)
+            call.respondText("11S18005 - Abdullah Ubaid")
         }
 
         route("/todos") {
