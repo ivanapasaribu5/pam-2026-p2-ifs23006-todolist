@@ -1,7 +1,7 @@
 ktor:
-    application:
-        modules:
-            - org.delcom.ApplicationKt.module
-    deployment:
-        host: 0.0.0.0
-        port: 8080
+  application:
+    modules:
+      - org.delcom.ApplicationKt.module
+  deployment:
+    port: ${APP_PORT}
+    host: ${APP_HOST}
